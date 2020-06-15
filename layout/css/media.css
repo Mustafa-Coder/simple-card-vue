@@ -1,0 +1,235 @@
+/*  screen  964*/
+
+@media only screen and (max-width:982px){
+
+/* dashboard */
+/* box-count */
+.homestyle .boxs-count .box-count-avota h1 
+{
+    font-size: 15px;
+}
+/* Commun */
+.homestyle .commun .info h3
+{
+    font-size: 11px;
+} 
+
+}
+
+
+/* screen 807 */
+
+
+@media only screen and (max-width:807px){
+
+/* dashboard */
+
+/* // about  */
+.homestyle .about .details li a {
+
+    font-size: 10px !important;
+    color: #26313c;
+    font-weight: 600;
+
+}
+
+
+/* Settings page */
+
+.form-settings .form-control {
+    width: 250px;
+}
+
+/* Settings page */
+
+.form-settings label {
+    font-size: 11px;
+}
+
+.settings .form-settings 
+{
+    margin: 0 !important;
+    width: 150px !important;
+}
+
+/* dashboard */
+/* commun posts  */
+.homestyle .commun .info .link li 
+{
+    font-size: 10px !important;
+}
+
+    
+}
+
+/* screen 557 */
+
+
+@media only screen and (max-width:557px){
+
+/* dashboard */
+/* menu  */
+
+.menu {
+    display:none !important;
+    /* overflow: scroll !important; */
+}
+
+.menu .details 
+{
+    margin-top: 0 !important;
+}
+
+
+header nav .logo .fa-list
+{
+    display: block !important;
+}
+
+header nav .logo .fa-home,
+header nav .logo span 
+{
+    display: none !important;
+}
+   
+/* home style  */
+
+.homestyle {
+    margin-left:0 !important;
+    margin: 15px !important;
+}
+
+/* pages user */
+.users .form .form-control,
+.users .about
+{
+    width: 100% !important;
+}
+
+
+/* Settings page */
+
+.form-settings .form-control {
+    width: 250px;
+}
+
+.settings .form-settings 
+{
+    margin: 15px !important;
+    width: 289px !important;
+}
+
+
+        
+}
+
+/* screen 263 */
+
+
+@media only screen and (max-width:263px){
+
+/* dashboard */
+/* // about  */
+.homestyle .about {
+    text-align: center;
+}
+.homestyle .about .details  {
+
+   display: block !important;
+   
+
+}
+
+/* pages user */
+.users .form .form-control,
+.users .about
+{
+    width: 100% !important;
+
+}
+    
+            
+}
+
+
+/* 547 */
+
+@media only screen and (max-width:547px){
+    
+/* dashboard */
+
+/* // about  */
+.homestyle .about .details  {
+
+    display: block !important;
+}
+
+.homestyle .about .details li 
+{
+    margin-bottom: 10px !important;
+
+}
+
+.homestyle .about .details li a {
+
+    font-size: 20px !important;
+    color: #26313c;
+    font-weight: 600;
+
+}
+
+/* box-count */
+.homestyle .boxs-count .box-count-avota h1 
+{
+    font-size: 25px;
+}
+
+/* box admin */
+.homestyle .user-admin .admins
+{
+    padding: 10px !important;
+}
+.homestyle .user-admin .admins .box
+{
+    text-align: center !important;
+    display: block !important;
+}
+
+.homestyle .user-admin .admins .box .avatar > img {
+    width: 94px !important;
+    height: 94px !important;
+}
+
+.homestyle .user-admin .admins .box .info h3 {
+    font-size: 20px !important;
+    margin-top: 4px !important;
+    margin-left: 4px !important;
+}
+
+
+.homestyle .user-admin .admins .box .info p {
+    font-size: 16px !important;
+}
+
+.dash h2 
+{
+    font-size: 20px !important;
+}
+
+/* commun posts */
+
+.homestyle .commun .info h3 {
+    font-size: 21px !important;
+}
+
+.homestyle .commun .info p 
+{
+    font-size: 15px !important;
+}
+
+.homestyle .commun .info .link li 
+{
+    font-size: 15px !important;
+}
+
+}

@@ -1,0 +1,164 @@
+/* import posts */
+@import './pages.css';
+@import './media.css';
+/* LOGIN PAGE ADMIN */
+
+
+.card-blog .card 
+{
+    width: 350px;
+    margin: 10% auto;
+    cursor: pointer;
+    box-shadow: 0 0 10px #cccccc;
+    transition: .9s ease;
+}
+
+.card-blog .card .cover .cover-img 
+{
+    transition: .9s ease;
+    width: 100%;
+}
+
+.card-blog .card .details p
+{
+    color: gray;
+}
+
+.card-blog .card .user-show ul 
+{
+    display: flex;
+    list-style-type: none;
+    transition: .9s ease;
+    padding: 5px;
+}
+
+.card-blog .card .user-show ul li
+{
+    margin-left: -10px;
+}
+
+.card-blog .card .user-show ul li > img 
+{
+    width: 30px;
+    border-radius: 50px;
+}
+
+/* modal card */
+
+
+.blogs 
+{
+    opacity: 0;
+    animation: show .9s  forwards;
+}
+
+@keyframes show 
+{
+    0%{opacity:0;}
+    25%{opacity:.6;}
+    100%{opacity:1;}
+
+}
+
+.blogs .cover 
+{
+    position: relative;
+
+}
+
+.blogs .cover .overlay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #6610f266;
+}
+
+
+
+.blogs .cover .overlay img 
+{
+    width: 60px;
+    border-radius: 50px;
+    margin: 20% auto;
+    margin-bottom: 0;
+    display: block;
+}
+
+.blogs .cover .overlay 
+{
+    text-align: center;
+    color: whitesmoke;
+    transition: .9s ease;
+
+}
+
+.blogs .cover > img 
+{
+    width: 100%;
+}
+
+.blogs .info > p 
+{
+    color: gray;
+}
+
+
+.card-blog .span 
+{
+    cursor: pointer;
+}
+
+/*  global design */
+
+.card {
+    border:0;
+}
+
+/* fonts */
+.fn {
+    font-size: 11px ;
+}
+.fs {
+    font-size: 13px ;
+}
+
+
+
+.fm {
+    font-size: 25px ;
+}
+
+.fg {
+    font-size: 30px ;
+} 
+
+.f-bold 
+{
+    font-weight: 700;
+}
+
+/* links */
+
+
+
+
+/* show */
+
+.display {
+    display: block !important;
+}
+
+
+.opac 
+{
+    opacity:1 !important;
+    transition: .4 ease;
+}
+
+/* bootstrap edit  */
+

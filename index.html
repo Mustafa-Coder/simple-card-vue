@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Includes Files Css3 -->
+    <!-- Bootstrap 4.1 -->
+    <link rel="stylesheet" href="./layout/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./layout/css/all.min.css">
+    <!-- My File Style -->
+    <link rel="stylesheet" href="./layout/css/main.css">
+    <title>Card Simple Blog</title>
+</head>
+<body style="background-color: whitesmoke;">
+    <!-- ------------------------------------------------------------- -->
+    <div id="app" class="container-fiuld m-3 card-blog ">
+        <!-- modal card -->
+        <div  v-if="show" class="blogs">
+            <div class="cover">
+                <div class="overlay">
+                    <img src="./layout/imgs/avatar/01.jpeg" alt="user" />
+                    <h1 class="fs mb-0 py-2">Jack Willam</h1>
+                    <span class="fs">20/6/2020</span>
+                </div>
+                <img src="./layout/imgs/cover/01.png" alt="cover" class="cover" />
+            </div>
+            <div class="info">
+                <h1 class="py-3 fg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, rem!</h1>
+                <p class="py-2 text-left">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iusto blanditiis veritatis eveniet corporis dolore alias!
+                    Eveniet enim dolore, tenetur, error ex necessitatibus nemo
+                    vero obcaecati suscipit ullam quisquam nesciunt, in quia 
+                    repellat repudiandae? Eaque ipsam ea doloribus. Facilis deleniti
+                    repudiandae a qui id consequatur quo vitae, ipsam cum quas aperiam?
+                    Vel cumque consequatur maxime voluptatem. Atque quo, repudiandae
+                    laudantium culpa doloremque, similique possimus cumque, iure nihil q
+                    uae ex? Nemo quisquam ab deleniti nostrum perspiciatis blanditiis dolore
+                    at provident. Asperiores cumque placeat esse ullam. Voluptas consequatur 
+                    ipsam inventore aperiam officia sunt amet. Fuga quae deserunt, nam aspernatur
+                    quas unde qui delectus mollitia molestias alias voluptatibus impedit. Voluptates
+                    adipisci incidunt nesciunt! Amet qui minima consequatur hic, consectetur ducimus 
+                    suscipit eveniet modi voluptas odio et debitis corrupti aliquam minus possimus fugit 
+                    deserunt natus unde mollitia dolores ut impedit ipsam error vel? Perferendis voluptates
+                    nisi cupiditate assumenda et eos dolore, fugit vero exercitationem incidunt.\
+                </p>
+            </div>
+        </div>
+        <!-- first card -->
+        <div v-if="defualt" @click="showblog()" class="card p-3">
+            <div class="cover">
+                <img src="./layout/imgs/cover/01.png" alt="" class="cover-img img-fiuld">
+            </div>
+            <div class="details">
+                <h1 class="py-3 fs f-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quas!</h1>
+                <p class="py-2 fn">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, 
+                    soluta tempora illo exercitationem amet fugit, ducimus illum vero cupiditate atque rem adipisci 
+                    distinctio corrupti consequuntur corporis inventore consectetur odio nihil.
+                </p>
+            </div>
+            <div class="user-show">
+                <ul>
+                    <li><img src="./layout/imgs/avatar/01.jpeg" alt="user" /></li>
+                    <li><img src="./layout/imgs/avatar/02.jpeg" alt="user" /></li>
+                    <li><img src="./layout/imgs/avatar/03.jpeg" alt="user" /></li>
+                    <li><img src="./layout/imgs/avatar/04.jpeg" alt="user" /></li>
+                </ul>
+            </div>
+        </div>
+        <!-- modal close -->
+        <div @click="closeblog()" v-if="show" class="span fg text-center">&times;</div>
+    </div>
+    
+    <!-- ------------------------------------------------------------- -->
+    <!-- Includes Files Javascropt -->
+    <!-- Bootstrap js -->
+    <script src="./layout/js/bootstrap.js"></script>
+    <!-- Vue js -->
+    <script src="./layout/js/vue.js"></script>
+    <!-- FontAwesome -->
+    <script src="./layout/js/all.min.js"></script>
+    <!-- Include File Script my code .-->
+    <script src="./layout/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* Users page  */
+
+.users .about 
+{
+    width: 60%;
+}
+
+.users .form {
+    margin: 0% auto;
+}
+
+.users .form .form-control {
+   
+    width: 50%;
+
+}
+
+/* settings page */
+
+.settings .form-settings 
+{
+    width:405px;
+    margin: 0 auto;
+}
+
+
+/* Thems */
+
+
+.defualt,
+.Girl,
+.atova
+{
+    width: 42px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.defualt 
+{
+    background: #23282d;
+}
+
+/* #6610f2 */
+
+.Girl 
+{
+    background: #6610f2;
+}
+
+
+.atova {
+    background: #dc3545;
+}
+
+.bgatova
+{
+    background: #dc3545 !important;
+}
+
+
+.bggirl
+{
+    background: #6610f2 !important;
+}
+
+
+.bgdefualt
+{
+    background: #23282d !important;
+}
